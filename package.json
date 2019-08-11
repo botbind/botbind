@@ -1,0 +1,29 @@
+{
+  "name": "botbind",
+  "version": "1.0.0",
+  "description": "Bot Bind Addon Framework powered by Klasa",
+  "homepage": "http://botbind.com",
+  "bugs": {
+    "url": "https://github.com/BotBind/botbind/issues"
+  },
+  "license": "MIT",
+  "author": "BotBind",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BotBind/botbind.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "klasa": "github:dirigeants/klasa#master",
+    "discord.js": "github:discordjs/discord.js#master"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": ">=10.1.0"
+  }
+}
